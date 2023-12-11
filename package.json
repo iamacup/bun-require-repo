@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./index.ts --outdir ./dist --target browser"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@slate-serializers/html": "^2.1.3"
+  }
+}
